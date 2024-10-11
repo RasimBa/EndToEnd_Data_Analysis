@@ -7,11 +7,36 @@ A project for cleaning, enriching, and analyzing business lead data with integra
 
 This project involves cleaning and enriching business lead data by leveraging external data sources, such as the Google Places API, to fill missing information (e.g., addresses and phone numbers). The cleaned and enriched data is then integrated into a PostgreSQL database for structured querying and analysis. Additionally, the project performs exploratory data analysis (EDA) and visualizations to gain insights into the lead data.
 
+### How to Run the Project
+
+1. Clone the Repository:
+
+git clone https://github.com/RasimBa/RBaghirli_DataAnalyst_Assessment.git
+
+2. Install Dependencies: Install the required Python libraries using pip:
+   
+pip install -r requirements.txt
+
+3. Set Up PostgreSQL:
+
+Ensure you have PostgreSQL installed and running.
+Create a database and update the connection details in the Jupyter notebook or script.
+
+Run the Jupyter Notebooks:
+
+Navigate to the jupyter files/ folder.
+Open the notebook files (e.g., data_cleanup_and_enrichment.ipynb) and run the cells to perform data cleaning, enrichment, and analysis.
+
+The data will be stored in PostgreSQL.
+
+Use SQL Queries for Analysis:
+The SQL scripts provided in the project (e.g., create_tables.sql, basic_queries.sql) can be used to analyze the stored data in PostgreSQL.
+
 
 ### Folder Structure
 
 ```bash
-united_solutions/
+RBaghirli_DataAnalyst_Assessment/
 ├── Inputs/            # Contains all input data files
 │   ├── data cleanup assignment.xlsx
 │   ├── leads_cleaned_data.xlsx
@@ -65,32 +90,6 @@ Python: Pandas, Matplotlib, Seaborn, Psycopg2
 Jupyter Notebook: For data analysis and database operations
 Google Places API: For data enrichment
 PostgreSQL: For structured data storage and querying
-
-### How to Run the Project
-
-1. Clone the Repository:
-
-git clone https://github.com/RasimBa/RBaghirli_DataAnalyst_Assessment.git
-
-2. Install Dependencies: Install the required Python libraries using pip:
-   
-pip install -r requirements.txt
-
-3. Set Up PostgreSQL:
-
-Ensure you have PostgreSQL installed and running.
-Create a database and update the connection details in the Jupyter notebook or script.
-
-Run the Jupyter Notebooks:
-
-Navigate to the jupyter files/ folder.
-Open the notebook files (e.g., data_cleanup_and_enrichment.ipynb) and run the cells to perform data cleaning, enrichment, and analysis.
-
-The data will be stored in PostgreSQL.
-
-Use SQL Queries for Analysis:
-The SQL scripts provided in the project (e.g., create_tables.sql, basic_queries.sql) can be used to analyze the stored data in PostgreSQL.
-
 
 ### Objective
 
