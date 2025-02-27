@@ -36,7 +36,7 @@ The SQL scripts provided in the project (e.g., create_tables.sql, basic_queries.
 ### Folder Structure
 
 ```bash
-RBaghirli_DataAnalyst_Assessment/
+EndtoEnd_Data_Analysis/
 ├── Inputs/            # Contains all input data files
 │   ├── data cleanup assignment.xlsx
 │   ├── leads_cleaned_data.xlsx
